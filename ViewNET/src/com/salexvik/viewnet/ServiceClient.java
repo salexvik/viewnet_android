@@ -439,6 +439,7 @@ public class ServiceClient extends Service {
 		posEndTag = saveBuf.indexOf(END_TAG);
 
 		// если обнаружен целый пакет...
+		
 
 		if(posStartTag != -1 && posEndTag != -1){
 			if (posStartTag < posEndTag){
