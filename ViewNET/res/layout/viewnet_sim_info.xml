@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/textView_typeMessage"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Сеть:"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView_networkName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ???"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            android:id="@+id/textView_externalBatteryVoltage"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="Сигнал:"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView_signalLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ???"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            android:id="@+id/textView_textMessage"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Баланс:"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView_simBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ???"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Номер:"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView_simNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ???"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_sendUssdCommand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick"
+        android:text="Выполнить USSD команду" />
+
+</LinearLayout>

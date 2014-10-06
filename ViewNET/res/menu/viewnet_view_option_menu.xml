@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/add_new_mediastream_to_view"
+          android:title="Добавить" />
+    <item android:id="@+id/VLC_settings"
+          android:title="@string/VLC_settings" />
+
+</menu>

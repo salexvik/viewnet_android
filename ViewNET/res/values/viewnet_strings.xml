@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">Основные настройки</string>
+	<string name="settings_done">Применить</string>
+	<string name="VLC_settings">Настройки VLC</string>
+	<string name="devices_settings">Устройства</string>
+	<string name="emptyString">""</string>
+	
+	<string-array name="resolutions_array">
+	    <item>1920x1080</item>
+	    <item>1280x720</item>
+	    <item>800x600</item>
+        <item>640x480</item>
+        <item>320x240</item>
+        <item>176x144</item>
+        <item>160x120</item>
+    </string-array>
+    
+	<string-array name="FPS_array">
+		<item >5</item>
+		<item >10</item>
+		<item >15</item>
+		<item >20</item>
+		<item >25</item>
+		<item >30</item>
+	</string-array>
+	
+	<string-array name="codecs_array">
+		<item >h264</item>
+		<item >h264 camera support</item>
+		<item >mjpeg camera support</item>
+	</string-array>
+	
+	<string-array name="channels_array">
+		<item >1</item>
+		<item >2</item>
+	</string-array>
+	
+	<string-array name="bitrates_array">
+		<item >100000</item>
+		<item >250000</item>
+		<item >500000</item>
+		<item >750000</item>
+		<item >1000000</item>
+		<item >2000000</item>
+		<item >3000000</item>
+		<item >4000000</item>
+		<item >5000000</item>
+	</string-array>
+	
+	<string-array name="recordingTimes_array">
+		<item >1</item>
+		<item >2</item>
+		<item >3</item>
+		<item >4</item>
+		<item >5</item>
+		<item >6</item>
+		<item >7</item>
+		<item >8</item>
+		<item >9</item>
+		<item >10</item>
+	</string-array>
+	
+</resources>
